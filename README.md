@@ -17,11 +17,14 @@
 	softNMS优点：
 	1、SoftNMS可以很方便地引入到object detection算法中，不需要重新训练原有的模型、代码容易实现，
 	不增加计算量（计算量相比整个object detection算法可忽略）。并且很容易集成到目前所有使用NMS的目标检测算法。
-  2、softNMS在训练中采用传统的NMS方法，仅在推断代码中实现softNMS。作者应该做过对比试验，
-  在训练过程中采用softNMS没有显著提高。
+        2、softNMS在训练中采用传统的NMS方法，仅在推断代码中实现softNMS。作者应该做过对比试验，
+         在训练过程中采用softNMS没有显著提高。
 	3、NMS是Soft - NMS特殊形式，当得分重置函数采用二值化函数时，Soft - NMS和NMS是相同的。soft - NMS算法是一种更加通用的非最大抑制算法。
 
 	softNMS缺点：
 	softNMS也是一种贪心算法，并不能保证找到全局最优的检测框分数重置。除了以上这两种分数重置函数，我们也可以考虑开发其他包含更多参数的分数重置函数，比如Gompertz函数等。但是它们在完成分数重置的过程中增加了额外的参数。
 
- ![tu1]()
+ ![tu1](https://github.com/XuHao9166/Campare_NMS_And_SoftNMS_cpp/blob/master/1.jpg)
+
+
+![tu2](https://github.com/XuHao9166/Campare_NMS_And_SoftNMS_cpp/blob/master/1.jpg)
