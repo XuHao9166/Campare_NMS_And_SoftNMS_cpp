@@ -27,4 +27,4 @@
  ![tu1](https://github.com/XuHao9166/Campare_NMS_And_SoftNMS_cpp/blob/master/1.jpg)
 
 
-![tu2](https://github.com/XuHao9166/Campare_NMS_And_SoftNMS_cpp/blob/master/1.jpg)
+![tu2](https://github.com/XuHao9166/Campare_NMS_And_SoftNMS_cpp/blob/master/2.jpg)
