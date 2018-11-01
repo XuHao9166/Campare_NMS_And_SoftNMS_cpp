@@ -1,6 +1,6 @@
 # Campare_NMS_And_SoftNMS_cpp
 
-
+(如果您觉得这个项目帮助到您，麻烦给颗星星) (If you think this project helps you, please give a star)
 
 ///////////传统的NMS
 
